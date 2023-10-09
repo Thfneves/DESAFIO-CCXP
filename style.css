@@ -1,0 +1,65 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Verdana;
+}
+button:hover {
+  background-color: #514988;
+  cursor: pointer;
+  color: #f3c61f;
+}
+#rodape {
+  background-color: #ffd900;
+  padding: 10px 0px 10px 0px;
+}
+#rodape img {
+  margin-left: 70px;
+  margin-top: 10px;
+}
+
+#textcentral {
+  background-color: #514988;
+  width: 85%;
+}
+
+#textcentral h1 {
+  font-size: 60px;
+  text-align: center;
+  padding-top: 15px;
+  color: #f3c61f;
+}
+#textcentral h2 {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 15px;
+}
+#centro {
+  display: grid;
+  grid-auto-flow: column;
+}
+
+#textcentral p {
+  font-size: 29px;
+  font-weight: 400px;
+  text-align: center;
+}
+
+.tempo {
+  text-align: center;
+  padding-right: 40%;
+}
+#timer {
+  display: grid;
+  display: flex;
+  padding-top: 30px;
+  padding-left: 60px;
+  font-size: 30px;
+  letter-spacing: 9px;
+}
+#timer h1 {
+  color: #514988;
+}
+#video {
+  padding-top: 100px;
+  padding-right: 100px;
+}
