@@ -13,12 +13,12 @@ function countDown() {
 
   const finalDias = Math.floor(segTotal / 60 / 60 / 24);
   const finalHoras = Math.floor(segTotal / 60 / 60) % 24;
-  const finalminutos = Math.floor(segTotal / 60) % 60;
+  const finalMinutos = Math.floor(segTotal / 60) % 60;
   const finalSegundos = Math.floor(segTotal) % 60;
 
   dia.innerHTML = formatotempo(finalDias + `D`);
   hora.innerHTML = formatotempo(finalHoras + `H`);
-  minuto.innerHTML = formatotempo(finalminutos + `M`);
+  minuto.innerHTML = formatotempo(finalMinutos + `M`);
   segundo.innerHTML = formatotempo(finalSegundos + `S`);
 }
 function formatotempo(tempo) {

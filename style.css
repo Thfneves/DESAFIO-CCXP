@@ -59,23 +59,35 @@ button:hover {
 #timer {
   display: grid;
   display: flex;
-  padding: 20px 0px 0px 258px;
-  font-size: 40px;
+  padding: 20px 0px 0px 200px;
 }
-#timer h1 {
-  color: #514988;
-}
+
 #dia {
+  font-size: 60px;
   padding-right: 30px;
+  color: #514988;
+  font-weight: 800;
 }
 #hora {
+  font-size: 60px;
   padding-right: 30px;
+  color: #514988;
+  font-weight: 800;
 }
 #minuto {
+  font-size: 60px;
   padding-right: 30px;
+  color: #514988;
+  font-weight: 800;
 }
 #segundo {
+  font-size: 60px;
   padding-right: 30px;
+  color: #514988;
+  font-weight: 800;
+}
+.video {
+  width: auto;
 }
 
 .ingressos {
