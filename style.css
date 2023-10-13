@@ -46,6 +46,7 @@ button:hover {
 #centro {
   display: grid;
   grid-auto-flow: column;
+  width: 95%;
 }
 
 .tempo {
@@ -88,6 +89,7 @@ button:hover {
 }
 .video {
   width: auto;
+  padding-left: 100px;
 }
 
 .ingressos {
