@@ -19,7 +19,7 @@ button:hover {
 
 #textcentral {
   background-color: #514988;
-  width: 105%;
+  width: 110%;
 }
 /* text central --> texto ao lado esquerdo*/
 #textcentral h1 {
@@ -46,7 +46,7 @@ button:hover {
 #centro {
   display: grid;
   grid-auto-flow: column;
-  width: 95%;
+  width: 100%;
 }
 
 .tempo {
