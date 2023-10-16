@@ -35,7 +35,6 @@
           </div>
           <div id="minuto">
             <h1>00M</h1>
-            m
             <br />
           </div>
           <div id="segundo">
@@ -55,17 +54,37 @@
     <div class="rodapee">
       <h1>AINDA DA TEMPO DE GARANTIR O SEU, MAS CORRE!</h1>
       <div class="ingressos">
-        <div id="roxo">
-          <img src="Ingressos/roxo.svg" alt="" />
+        <div>
+          <img
+            id="roxo"
+            src="Ingressos/roxo.svg"
+            onmouseover="highlightCard('#roxo')"
+            onmouseout="highlightCard('#roxo')"
+          />
         </div>
         <div>
-          <img id="rosa" src="Ingressos/rosa.svg" alt="" />
+          <img
+            id="rosa"
+            src="Ingressos/rosa.svg"
+            onmouseover="highlightCard('#rosa')"
+            onmouseout="highlightCard('#rosa')"
+          />
         </div>
         <div>
-          <img id="amarelo" src="Ingressos/amarelo.svg" alt="" />
+          <img
+            id="amarelo"
+            src="Ingressos/amarelo.svg"
+            onmouseover="highlightCard('#amarelo')"
+            onmouseout="highlightCard('#amarelo')"
+          />
         </div>
         <div>
-          <img id="verde" src="Ingressos/verde.svg" alt="" />
+          <img
+            id="verde"
+            src="Ingressos/verde.svg"
+            onmouseover="highlightCard('#verde')"
+            onmouseout="highlightCard('#verde')"
+          />
         </div>
         <div id="botao">
           <button type="button">GARANTA O SEU!</button>
@@ -73,5 +92,6 @@
       </div>
     </div>
     <script src="script.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>
