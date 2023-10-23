@@ -56,38 +56,46 @@
       <div class="ingressos">
         <div>
           <img
+            class="cards-ingressos"
             id="roxo"
             src="Ingressos/roxo.svg"
+            onclick="selectCard('#roxo')"
             onmouseover="highlightCard('#roxo')"
             onmouseout="highlightCard('#roxo')"
           />
         </div>
         <div>
           <img
+            class="cards-ingressos"
             id="rosa"
             src="Ingressos/rosa.svg"
+            onclick="selectCard('#rosa')"
             onmouseover="highlightCard('#rosa')"
             onmouseout="highlightCard('#rosa')"
           />
         </div>
         <div>
           <img
+            class="cards-ingressos"
             id="amarelo"
             src="Ingressos/amarelo.svg"
+            onclick="selectCard('#amarelo')"
             onmouseover="highlightCard('#amarelo')"
             onmouseout="highlightCard('#amarelo')"
           />
         </div>
         <div>
           <img
+            class="cards-ingressos"
             id="verde"
             src="Ingressos/verde.svg"
+            onclick="selectCard('#verde')"
             onmouseover="highlightCard('#verde')"
             onmouseout="highlightCard('#verde')"
           />
         </div>
         <div id="botao">
-          <button type="button">GARANTA O SEU!</button>
+          <button onclick="showSelectedCards()">GARANTA O SEU!</button>
         </div>
       </div>
     </div>
