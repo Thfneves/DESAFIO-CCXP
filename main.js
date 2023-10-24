@@ -60,7 +60,7 @@ function addKeyboardEventListeners() {
   );
 }
 // selectCard- É função que deixa o onlick ativo. A função abaixo esta puxando essa informação//
-function selectCard(selector) {
+selectCard = (selector) => {
   //element é um nome para a variavel( nome generico)- em sequencia esta usaando queryselector para puxar o selector
   //( ingresso selecionado) que esta sendo puxado pelo selectcard acima
   var element = document.querySelector(selector);
@@ -71,9 +71,9 @@ function selectCard(selector) {
   if (ingressos.includes(selector)) ingressos.pop(selector);
   //se nao push( ira adcionar)
   else ingressos.push(selector);
-}
-function showSelectedCards() {
+};
+showSelectedCards = () => {
   if (ingressos.lenght > 0) alert("ingressos Selecionados:" + ingressos);
-}
+};
 
 addKeyboardEventListeners();
